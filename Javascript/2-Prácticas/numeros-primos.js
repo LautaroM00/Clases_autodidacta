@@ -4,23 +4,23 @@ de los naturales) te muestra todos los números primos
 hasta el número ingresado inclusive.
  */
 
-let numeroUsuario = prompt('Ingrese un número','') 
+let numeroUsuario = prompt('Ingrese un número', '');
 
-let n
+let n;
 
 for(let i = 2; i < +numeroUsuario + 1; i++){
-    n = 2
-    do{
+    n = 2;
+    do {
         t = true
-        if(i % n == 0){
-            if(i == n){
-                alert(i)
-                t = false
-            }else{
-                t = false
+        if(i % n == 0) {
+            if(i == n) {
+                alert(i);
+                t = false;
+            }else {
+                t = false;
             }
-        }else{
-            n++
+        }else {
+            n++;
         }
-    }while(t)
+    } while ( t );
 }

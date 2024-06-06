@@ -1,0 +1,14 @@
+label,input{
+    display:block;
+}
+
+body{
+    background-color: grey;
+}
+
+button, #submit{
+    margin-top: 10px;
+}
+p{
+    width:200px;
+}
